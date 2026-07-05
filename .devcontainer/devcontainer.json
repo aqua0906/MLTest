@@ -1,0 +1,14 @@
+{
+  "name": "Kaggle Python Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install kaggle pandas numpy scikit-learn lightgbm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "GitHub.copilot"
+      ]
+    }
+  }
+}
